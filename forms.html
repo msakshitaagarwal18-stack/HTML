@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>My Form</title>
+</head>
+<body>
+<form action="index.html" method="get">
+<h2>Please fill out this form :)</h2>
+<div>
+<label for="name"> Name</label>
+<input name="username" id="username" type="text" required>
+</div> <br>
+<div>
+<label for="regno"> Registration No</label>
+<input name="regno" id="regno" type="text" required>
+</div><br>
+<div>
+<label for="age"> Age</label>
+<input name="age" id="age" type="number" min="10" max="80" required>
+</div><br>
+<div>
+<label for="dob">Date of Birth</label>
+<input name="dob" id="dob" type="date" min="01-01-1970" required>
+</div><br>
+<h3>Gender</h3>
+<div>
+<input name="gender" id="gender" type="radio" value="Male" required>
+<label for="gender"> Male</label>
+</div><br>
+<div>
+<input name="gender" id="gender" type="radio" value="Female" required>
+<label for="gender"> Female</label>
+</div><br>
+<div>
+<label for="state"> State</label>
+<select name="state" id="state">
+<option value="Delhi"> DELHI</option>
+<option value="Hyderabad"> HYDERABAD</option>
+<option value="TamilNadu"> TAMIL NADU</option>
+<option value="Karnataka"> KARNATAKA</option>
+<option value="Punjab"> PUNJAB</option>
+<option value="Kerala"> KERALA</option>
+</select>
+</div><br>
+<button type="submit">SUMBIT</button>
+<button type="reset">RESET</button>
+</form>
+</body>
+</html>
